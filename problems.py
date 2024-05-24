@@ -15,7 +15,8 @@ def analyze_list(numbers):
     even_sum = 0
     max_num = numbers[0]
     min_num = numbers[0]
-    total_sum = 0
+    total_sum = 0  
+def is_prime(n):
     for num in numbers:
         if num < 2:
             prime_count += 1
